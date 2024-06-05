@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>flexbox</title>
-  <style>    
+  <link rel="stylesheet" href="./css/self1.css">
+  <style>
+    .flex-container {
+      display: grid;
+      grid-template-columns: 160px 160px 160px;
+      grid-template-rows: 240px 240px;
+      column-gap: 10px;
+      row-gap: 10px;
+    }
   </style>
 </head>
+
 <body>
   <!--TODO 수정-->
   <div class="flex-container">
@@ -33,4 +43,5 @@
     </figure>
   </div>
 </body>
+
 </html>
